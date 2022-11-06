@@ -33,7 +33,7 @@ public class task1 {
     }
 
     /**
-     * return difference element arrays
+     * difference element arrays
      * @param arr1
      * @param arr2
      * @return array of difference element of arr1 and arr2
@@ -54,7 +54,7 @@ public class task1 {
      * @param lenght
      * @return array int size = lenght
      */
-    private static int [] fillRandomIntArray(int lenght) {
+    public static int [] fillRandomIntArray(int lenght) {
         Random rn = new Random();
         int[] arr = new int[lenght];
         for (int i = 0; i < lenght; i++) {
